@@ -1,0 +1,28 @@
+// Using conditional statements, determine which integer is greater and display a message to the user indicating which integer is greater.
+
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int x , y;
+    cin >> x >> y;
+    if( x > y) 
+    {
+        cout << x <<" is greater than " << y << endl;
+    }
+    else if (y > x)
+    {
+        cout << y <<" is greater than " << x << endl;
+    }
+    else
+    {
+        cout <<x << "is equal to " << y << endl;
+    }
+}
+
+/*
+output
+10 5
+10 is greater than 5
+
+*/
